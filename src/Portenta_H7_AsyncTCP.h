@@ -52,7 +52,7 @@
 
 /////////////////////////////////////////////
 
-#if ( defined(ARDUINO_PORTENTA_H7_M7) || defined(ARDUINO_PORTENTA_H7_M4) )
+#if ( defined(ARDUINO_PORTENTA_H7_M7) || defined(ARDUINO_PORTENTA_H7_M4) || defined(ARDUINO_GIGA)  )
 
   #if defined(BOARD_NAME)
     #undef BOARD_NAME
